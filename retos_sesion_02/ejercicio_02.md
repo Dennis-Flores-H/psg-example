@@ -5,7 +5,7 @@ Durante los primeros semestres, las cosas se complicaron debido a problemas pol�
 
 A partir de 2022, retome mis estudios de manera presencial, lo que me permitio profundizar de mejor manera en los conceptos teóricos y prácticos de la informática como tambien interactuar directamente con mis docentes y compañeros.
 
-A lo largo de mi formación, he adquirido conocimientos en diversos lenguajes de programación,entre los principales estan: 
+A lo largo de mi formación, he adquirido conocimientos en diversos lenguajes de programación, entre los principales estan: 
 * *Python*
 * *Java* 
 * *C++* 
