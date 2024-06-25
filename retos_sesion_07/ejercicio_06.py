@@ -1,3 +1,4 @@
+# Agregar 5 Ejemplos con otras funciones no vistas en la sesión
 # Método center()
 print("\n1. METODO CENTER")
 # Cadena original
