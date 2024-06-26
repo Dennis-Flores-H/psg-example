@@ -44,11 +44,25 @@ total_costo = sum(precios)
 print("Costo total de los productos:", total_costo)
 
 # Ordenar alfabéticamente productos y precios
+# Manera 1
 print("\nOrdenar alfabéticamente productos y precios")
-productos_precios_ordenados = sorted(zip(productos, precios))
-productos_ordenados, precios_ordenados = zip(*productos_precios_ordenados)
+# Combinar productos y precios en una lista de tuplas
+productos_precios = [(productos[i], precios[i]) for i in range(len(productos))]
+# Ordenar la lista de tuplas
+productos_precios.sort()  # sort() ordena la lista de tuplas por el primer elemento de cada tupla
+# Separar nuevamente en dos listas
+productos_ordenados = [producto for producto, _ in productos_precios]
+precios_ordenados = [precio for _, precio in productos_precios]
+# Imprimir productos y precios ordenados
 print("Productos ordenados alfabéticamente:", productos_ordenados)
 print("Precios correspondientes ordenados:", precios_ordenados)
+
+# Manera 2
+# print("\nOrdenar alfabéticamente productos y precios")
+# productos_precios_ordenados = sorted(zip(productos, precios))
+# productos_ordenados, precios_ordenados = zip(*productos_precios_ordenados)
+# print("Productos ordenados alfabéticamente:", productos_ordenados)
+# print("Precios correspondientes ordenados:", precios_ordenados)
 
 # Eliminar todos los productos de las listas
 print("\nEliminar todos los productos de las listas")
