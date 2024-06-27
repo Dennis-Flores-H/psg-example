@@ -102,7 +102,7 @@ while numero >= 0:
     print(numero)
     numero -= 1
 
-frutas = ['🍎','🍌','🍇','🍉','🍊','🐛','🍋','🍍']
+frutas = ['🍎','🍌','🍇','🍉','🍊','🐛','🍓','🍍']
 print ("Ejemplo 14")
 for fruta in frutas:
     if fruta == '🐛':
@@ -110,7 +110,7 @@ for fruta in frutas:
     print(fruta)
 print ("Fin")
 
-frutas = ['🍎','🍌','🍇','🍉','🍊','🐛','🍋','🍍']
+frutas = ['🍎','🍌','🍇','🍉','🍊','🐛','🍓','🍍']
 print ("Ejemplo 14")
 i = ""
 while i != '🐛':
